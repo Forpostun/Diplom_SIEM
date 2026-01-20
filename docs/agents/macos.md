@@ -35,7 +35,7 @@ sudo /Library/Ossec/bin/wazuh-control status
 The agent appears as Active in the Wazuh Dashboard:
 Agents → Overview.
 
-##Notes
+## Notes
 
 The agent was deployed on a macOS virtual machine. No additional Privacy &
 Security permissions were required in this lab environment. Event collection
