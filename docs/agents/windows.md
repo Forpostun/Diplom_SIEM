@@ -46,3 +46,7 @@ The agent should appear as Active in the Wazuh Dashboard:
 Agents → Overview.
 
 Windows Event Logs (Security, System, Application) are collected automatically.
+
+## Dashboard verification
+
+![Windows agent active](images/windows-agent-active.png)

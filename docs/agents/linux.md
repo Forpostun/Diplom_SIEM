@@ -46,3 +46,10 @@ The agent should appear as Active in the Wazuh Dashboard:
 Agents → Overview.
 
 
+## Dashboard verification
+
+![Linux agent active](images/linux-agent-active.png)
+
+## Agents overview
+
+![Agents overview](images/agents-overview.png)

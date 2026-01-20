@@ -40,3 +40,7 @@ Agents → Overview.
 The agent was deployed on a macOS virtual machine. No additional Privacy &
 Security permissions were required in this lab environment. Event collection
 (authentication, process activity) works as expected.
+
+## Dashboard verification
+
+![macOS agent active](images/macos-agent-active.png)
