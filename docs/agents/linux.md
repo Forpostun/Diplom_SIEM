@@ -29,18 +29,21 @@ wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.7.
 sudo WAZUH_MANAGER='192.168.50.181' \
      WAZUH_AGENT_NAME='Ubuntu' \
      dpkg -i wazuh-agent_4.7.0-1_amd64.deb
+```
 
 Start the agent
 
+```
 sudo systemctl daemon-reload
 sudo systemctl enable wazuh-agent
 sudo systemctl start wazuh-agent
+```
 
 Verification
 
 Check agent status:
 
-sudo systemctl status wazuh-agent
+```sudo systemctl status wazuh-agent ```
 
 The agent should appear as Active in the Wazuh Dashboard:
 Agents → Overview.

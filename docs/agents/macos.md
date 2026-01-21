@@ -23,14 +23,15 @@ curl -so wazuh-agent.pkg https://packages.wazuh.com/4.x/macos/wazuh-agent-4.7.0-
 echo "WAZUH_MANAGER='192.168.50.181' && WAZUH_AGENT_NAME='macOS'" > /tmp/wazuh_envs
 
 sudo installer -pkg ./wazuh-agent.pkg -target /
+```
 
 Start the agent
 
-sudo /Library/Ossec/bin/wazuh-control start
+```sudo /Library/Ossec/bin/wazuh-control start```
 
 Verification
 
-sudo /Library/Ossec/bin/wazuh-control status
+```sudo /Library/Ossec/bin/wazuh-control status```
 
 The agent appears as Active in the Wazuh Dashboard:
 Agents → Overview.

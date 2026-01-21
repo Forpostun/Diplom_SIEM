@@ -32,15 +32,16 @@ msiexec.exe /i $env:TEMP\wazuh-agent.msi /q `
   WAZUH_MANAGER="192.168.50.181" `
   WAZUH_AGENT_NAME="Windows" `
   WAZUH_REGISTRATION_SERVER="192.168.50.181"
+```
 
 Start the agent service
 
-NET START WazuhSvc
+```NET START WazuhSvc```
 
 Verification
 Check service status:
 
-Get-Service Wazuh*
+```Get-Service Wazuh*```
 
 The agent should appear as Active in the Wazuh Dashboard:
 Agents → Overview.
