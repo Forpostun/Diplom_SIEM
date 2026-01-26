@@ -42,7 +42,8 @@ The following configuration was applied on the Linux host:
   <skip_dev>yes</skip_dev>
   <skip_proc>yes</skip_proc>
   <skip_sys>yes</skip_sys>
-</syscheck> ```
+</syscheck>
+```
 After applying the configuration, the Wazuh agent was restarted:
 ```sudo systemctl restart wazuh-agent```
 This configuration ensures that any modification of critical system files is detected immediately and reported to the Wazuh manager.
