@@ -14,7 +14,8 @@ Single-node Wazuh deployment using Docker Compose.
 
 ```bash
 cd docker/single-node
-docker compose up -d```
+docker compose up -d
+```
 
 Access the web interface:
 ```https://localhost```
