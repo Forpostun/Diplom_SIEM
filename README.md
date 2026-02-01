@@ -58,7 +58,7 @@ All detections were tested and confirmed via Slack notifications.
 
 Detailed technical documentation is available in the docs/ directory
 and includes alert logic, screenshots, and verification steps.
-
+```
 docs/
 ├── agents/
 │   ├── linux.md
@@ -68,7 +68,7 @@ docs/
 │   ├── linux/
 │   ├── windows/
 │   └── macos/
-
+```
 
 ### 🧩 agents
 
